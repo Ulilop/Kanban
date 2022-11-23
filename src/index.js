@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Kanban from './components/Kanban';
+import App from './helpers/App';
 import reportWebVitals from './reportWebVitals';
 import './style/Main.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <Kanban />
+    <App />
   </React.StrictMode>
 );
 

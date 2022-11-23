@@ -1,0 +1,16 @@
+@import './Main.scss';
+
+.tarjeta {
+
+  &__titulo {
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  &__descripcion {
+    font-size: 1em;
+    font-weight: normal;
+  }
+}
+
+

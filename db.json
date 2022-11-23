@@ -1,19 +1,100 @@
 {
-  "posts": [
+  "tarjetas": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "titulo": "Multi Tasking",
+      "descripcion": "Self-enabling motivating focus group",
+      "columna": 1,
+      "tablero": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Fundamental",
+      "descripcion": "Organic logistical capability",
+      "columna": 4,
+      "tablero": 1
+    },
+    {
+      "id": 3,
+      "titulo": "Scalable",
+      "descripcion": "Down-sized multi-tasking middleware",
+      "columna": 4,
+      "tablero": 1
+    },
+    {
+      "id": 4,
+      "titulo": "Discrete",
+      "descripcion": "Extended static archive",
+      "columna": 3,
+      "tablero": 1
+    },
+    {
+      "id": 5,
+      "titulo": "Explicit",
+      "descripcion": "Polarised zero defect array",
+      "columna": 4,
+      "tablero": 1
+    },
+    {
+      "id": 6,
+      "titulo": "Leading Edge",
+      "descripcion": "Reactive non-volatile firmware",
+      "columna": 2,
+      "tablero": 1
+    },
+    {
+      "id": 7,
+      "titulo": "Archive",
+      "descripcion": "Exclusive bi-directional hub",
+      "columna": 3,
+      "tablero": 1
+    },
+    {
+      "id": 8,
+      "titulo": "Artificial Intelligence",
+      "descripcion": "Programmable foreground benchmark",
+      "columna": 1,
+      "tablero": 1
+    },
+    {
+      "id": 9,
+      "titulo": "Versatile",
+      "descripcion": "Profit-focused zero administration help-desk",
+      "columna": 3,
+      "tablero": 1
+    },
+    {
+      "id": 10,
+      "titulo": "Static",
+      "descripcion": "Diverse optimizing project",
+      "columna": 4,
+      "tablero": 2
     }
   ],
-  "comments": [
+  "columnas": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "titulo": "To Do",
+      "color": "#FF0000",
+      "tablero": 1
+    },
+    {
+      "id": 2,
+      "titulo": "In Progress",
+      "color": "#FF0000",
+      "tablero": 1
+    },
+    {
+      "id": 3,
+      "titulo": "Done",
+      "color": "#FF0000",
+      "tablero": 1
+    },
+    {
+      "id": 4,
+      "titulo": "Deprecated",
+      "color": "#FF0000",
+      "tablero": 2
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
