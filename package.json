@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"json-server --watch db.json\"",
+    "start": "concurrently \"npm run start:ui\" \"npm run start:server\"",
     "start:ui": "react-scripts start",
     "start:server": "json-server --watch db.json",
     "build": "react-scripts build",
