@@ -1,9 +1,11 @@
-import { useFetchTabla } from "../hooks/useFetchTabla";
+import { useReadTabla } from "../hooks/useCRUDTabla";
 import Columna from "./Columna";
 
 const Kanban = () => {
-  const [ tarjetas, cargandoTarjetas ] = useFetchTabla("tarjetas");
-  const [ columnas, cargandoColumnas ] = useFetchTabla("columnas");
+  const [ tarjetas, cargandoTarjetas, errorTarjeta ] = useReadTabla("tarjetas");
+  const [ columnas, cargandoColumnas, errorColumnas ] = useReadTabla("columnas");
+  console.log(errorTarjeta);
+  console.log(errorColumnas);
 
   if (cargandoTarjetas || cargandoColumnas) {
     return <div className="alert alert-info text-center">Cargando...</div>;
